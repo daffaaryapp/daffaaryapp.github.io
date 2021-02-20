@@ -60,10 +60,84 @@
 
 /* info panel */
 .info-panel{
-    background-color: salmon;
-    margin-top: 30px;
-    height: 90px;
+   box-shadow: 0 3px 20px rgba(0,0,0,0.5 );
+   border-radius: 12px;
+   background: white;
+   margin-top: -40px;
+   padding: 40px;
 }
+.info-panel svg {
+    margin-right: 20px;
+    margin-bottom: 90px;
+    height:40px;
+    width:40px;
+}
+.info-panel h4 {
+    font-size: 20px;
+    font-weight: bold;
+}
+.info-panel p {
+    margin-left: 10px;
+}
+
+/* working space */
+.workingspace{
+    margin-top: 120px;
+    text-align: center;
+}
+.workingspace img{
+    border-radius: 20px;
+}
+.workingspace h3{
+    font-weight: 200;
+    font-size: 52px;
+    text-transform: uppercase;
+    margin-top: 30px;
+    text-align: center;
+}
+.workingspace h3 span{
+    font-weight: 1000;
+    font-family: 'Open Sans', sans-serif;
+}
+.workingspace p{
+    font-weight: 200;
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+/* testimonial */
+.testimonial{
+    margin-top: 100px;
+}
+.testimonial h5{
+    font-size: 30px;
+    font-family: italic;
+}
+
+/* carousel */
+.carousel{
+    margin-top: 100px;
+    width: 100%;
+    position: relative;
+}
+.carousel-item img{
+  height: 100px;
+  border-radius: 50%;
+  margin: auto;
+  position: relative;
+  margin-bottom: 40px;
+}
+.carousel-indicators{
+    position: absolute;
+}
+
+/* footer */
+.card{
+    margin-top: 80px;
+    text-align: center;
+    width: 100%;
+}
+
 
 /* Desktop */
 @media (min-width: 992px) {
@@ -103,5 +177,68 @@
         text-align: center;
         margin-bottom: 30px;
         font-size: 70px;
+    }
+    .info-panel{
+        margin-top: -80px;
+        
+    }
+    .info-panel svg {
+        margin-right: 20px;
+        margin-bottom: 20px;
+        height:70px;
+        width:70px;
+    }
+    .info-panel h4 {
+        font-size: 20px;
+        font-weight: bold;
+    }
+    .info-panel p {
+        margin-left: 10px;
+    }
 
+    .workingspace{
+        margin-top: 120px;
+    }
+    .workingspace img{
+        border-radius: 20px;
+    }
+    .workingspace h3{
+        font-weight: 200;
+        font-size: 52px;
+        text-transform: uppercase;
+        margin-top: 30px;
+        text-align: left;
+    }
+    .workingspace h3 span{
+        font-weight: 1000;
+        font-family: 'Open Sans', sans-serif;
+    }
+    .workingspace p{
+        font-weight: 200;
+        font-size: 20px;
+        text-align: left;
+    }
+
+    .carousel{
+        margin-top: 100px;
+        width: 100%;
+    }
+    .carousel-item img{
+      height: 100px;
+      border-radius: 50%;
+      margin: auto;
+    }
+    .carousel-caption{
+        margin-top: 15px;
+        margin-right: 330px;
+        position: relative;
+        text-align: center;
+    }
+    .carousel-control-prev{
+        margin-left: 300px;
+    }
+    .carousel-control-next{
+        margin-right: 300px;
+    }
+    
 }
