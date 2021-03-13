@@ -1,0 +1,39 @@
+@media (min-width: 992px) {
+  .nav-link {
+    color: white;
+  }
+
+  .nav-link:hover {
+    background: white;
+    border-radius: 5px;
+  }
+}
+
+.jumbotron {
+  padding-top: 8rem;
+  background: rgb(238, 231, 164);
+}
+
+#projects {
+  background: rgb(238, 231, 164);
+}
+
+.card {
+  box-shadow: 0 7px 7px rgba(10, 9, 9, 0.2);
+  text-decoration: none;
+  color: #000000;
+  text-align: center;
+  margin-bottom: 3rem;
+}
+.card:hover {
+  box-shadow: 0 7px 20px rgba(10, 9, 9, 0.5);
+  color: #000000;
+}
+
+footer p {
+  text-align: center;
+}
+
+section {
+  padding-top: 5rem;
+}
