@@ -17,6 +17,10 @@
 #projects {
   background: rgb(238, 231, 164);
 }
+#sosmed {
+  background: rgb(238, 231, 164);
+  padding-bottom: 180px;
+}
 
 .card {
   box-shadow: 0 7px 7px rgba(10, 9, 9, 0.2);
