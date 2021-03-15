@@ -41,3 +41,22 @@ footer p {
 section {
   padding-top: 5rem;
 }
+
+.sosmed,
+.mySos {
+  box-shadow: 0 7px 7px rgba(10, 9, 9, 0.2);
+}
+
+h1,
+h2 {
+  text-shadow: 0 7px 7px rgba(10, 9, 9, 0.2);
+}
+
+.navbar-brand,
+.mySes {
+  text-shadow: 0 7px 7px rgba(10, 9, 9, 0.2);
+}
+
+.turtle {
+  text-shadow: 0 1px 1px rgba(10, 9, 9, 0.5);
+}
