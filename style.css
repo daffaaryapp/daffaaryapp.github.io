@@ -51,6 +51,8 @@ section {
 h1,
 h2 {
   text-shadow: 0 7px 7px rgba(10, 9, 9, 0.2);
+  animation-name: mymove;
+  animation-duration: 4s;
 }
 
 .navbar-brand,
@@ -60,4 +62,9 @@ h2 {
 
 .turtle {
   text-shadow: 0 1px 1px rgba(10, 9, 9, 0.5);
+}
+
+.mySos:hover {
+  transform: translateY(-5px);
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
